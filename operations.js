@@ -38,6 +38,24 @@ console.log(3>3);
 console.log(3<3);
 console.log(3>=3);
 console.log(3<=3);  
+console.log(3=='3'); // true    
+console.log(3==='3'); // false
+console.log(3!='3'); // false
+console.log(3!=='3'); // true   
+log(null==undefined); // true
+console.log(null===undefined); // false
+console.log(NaN==NaN); // false
+console.log(NaN===NaN); // false
+console.log(Number.isNaN(NaN)); // true
+console.log(Number.isNaN(3)); // false
+log(null==undefined); // true
+console.log(null===undefined); // false
+console.log(NaN==NaN); // false
+console.log(NaN===NaN); // false        
+console.log(Number.isNaN(NaN)); // true
+console.log(Number.isNaN(3)); // false
+          
+
 
 // logical operators 
 console.log(true && true); // and
